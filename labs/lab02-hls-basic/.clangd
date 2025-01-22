@@ -1,0 +1,8 @@
+CompileFlags:
+  Remove:
+    - -flhs*
+    - -hls*
+  Add:
+    - -I/opt/Xilinx/Vitis_HLS/2024.1/include
+    - -I/opt/Xilinx/Vitis_HLS/2024.1/include/etc
+    - -I/opt/Xilinx/Vitis_HLS/2024.1/lnx64/tools/auto_cc/include
